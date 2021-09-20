@@ -1,6 +1,8 @@
+const startTime = new Date();
+
 function updateClock() {
     var endTime = new Date();
-    var timeElapsed = 1632177793101-startTime;
+    var timeElapsed = endTime-startTime;
     var sec = Math.floor(timeElapsed/1000%60);
     var min = Math.floor(timeElapsed/1000/60%60);
     var hr = Math.floor(timeElapsed/1000/60/60%24);
