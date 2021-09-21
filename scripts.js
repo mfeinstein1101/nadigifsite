@@ -11,3 +11,7 @@ function updateClock() {
     document.getElementById('time').innerHTML = d+":"+hr+":"+min+":"+sec;
 }
 setInterval(updateClock, 500);
+
+function troll() {
+    document.getElementById('trollface').style.opacity = "100%";
+}
