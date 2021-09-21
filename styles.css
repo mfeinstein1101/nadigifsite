@@ -19,9 +19,8 @@ body {
 .trollface {
     display:block;
     margin:auto;
-    width:60%;
+    width:50%;
     opacity:0%;
-    user-drag: none;
     -webkit-user-drag: none;
     user-select: none;
     -moz-user-select: none;
